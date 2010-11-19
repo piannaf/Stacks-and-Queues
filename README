@@ -1,0 +1,26 @@
+Justin Mancinelli
+
+Complete assignment 1 for COMP3506 at the University of Queensland
+
+Description:
+	Implement abstract data types (ADTs) for array and link based stacks and
+	queues. Also, a short report to evaluate the strengths and weaknesses.
+	
+	The array-based data structures were partially written for us and we 
+	needed to fix them to pass the given tests and ensure they will pass
+	any other relevent test thrown at them.
+	
+	The link-based data structures had to be implemented from scratch. Only 
+	the interfaces were given.
+	
+Files:
+	au.edu.uq.itee.comp3506.adt.* -- The given interfaces
+	au.edu.uq.itee.comp3506.part1.* -- The given array-based structures which
+		had to be modified to pass tests.
+	student42094353.* -- My implementation of list-based queue, stack and basic
+		priority queue. And a trivial factory pattern for getting the various
+		ADT implementations.
+	student42094353Test.* -- The tests I made for my list-based implementations 
+		(mostly copy-paste from the array-based tests) and factory pattern.
+	10COMP7505Assignment1.pdf -- The assignment specification.
+	Task3.* -- The short report.
